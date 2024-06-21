@@ -75,3 +75,6 @@ This project automates the process of sending personalized emails to a list of c
 ## Contributing
 
 Contributions are welcome! Please open an issue or submit a pull request for any changes or improvements.
+
+## View Counter 
+![Counter](https://profile-counter.glitch.me/Bulk-Email-sender/count.svg)
