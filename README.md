@@ -37,7 +37,7 @@ This project automates the process of sending personalized emails to a list of c
 
     ```bash
     git clone https://github.com/yourusername/gmail-bulk-email-sender.git
-    cd gmail-bulk-email-sender
+    cd Bulk-Email-sender
     ```
 
 2. **Install the required Python packages:**
