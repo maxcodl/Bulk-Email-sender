@@ -6,7 +6,8 @@ required_packages = [
     "undetected-chromedriver",
     "selenium",
     "pandas",
-    "pyautogui"
+    "pyautogui",
+    "datetime"
 ]
 
 # Function to check if a package is installed
