@@ -127,7 +127,7 @@ for index, row in contacts_df.iterrows():
 
   
   
-    # body_field.send_keys(Keys.CONTROL, 'v') # Uncheck this if you have signature (copy the signature to clipboard and it will paste it to your email)
+    # body_field.send_keys(Keys.CONTROL, 'v') # Uncheck this if you want to paste something to the email (eg: an image with a fixed size or something)
 
   
   
