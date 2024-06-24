@@ -26,7 +26,7 @@ driver.get("https://accounts.google.com/signin/v2/identifier?service=mail") # Op
 email_field = WebDriverWait(driver, 20).until(
     EC.element_to_be_clickable((By.CSS_SELECTOR, 'input[type="email"]'))
 )
-email_field.send_keys("your_emil_id")
+email_field.send_keys("your_emil_id") # Add your email id inside ""
 
 # Click "Next" button
 next_button = WebDriverWait(driver, 20).until(
@@ -38,7 +38,7 @@ next_button.click()
 password_field = WebDriverWait(driver, 20).until(
     EC.element_to_be_clickable((By.CSS_SELECTOR, 'input[type="password"]'))
 )
-password_field.send_keys("your_password_here")
+password_field.send_keys("your_password_here") # Add your password inside ""
 
 # Click "Next" button
 next_button = WebDriverWait(driver, 20).until(
@@ -67,6 +67,7 @@ contacts_df = pd.read_excel('contacts.xlsx', sheet_name='Sheet1')
 for index, row in contacts_df.iterrows():
     email = row['User Emails'] # To identify the Emails  
     first_name = row['First Name'] # To identify the first name
+  # custom_message = row['Title in Excel']
     
     # Click the "Compose" button
     compose_button = WebDriverWait(driver, 20).until(
@@ -90,7 +91,7 @@ for index, row in contacts_df.iterrows():
 
   
     #This is where you can add your subject for the email
-    subject = "What ever your subject is"
+    subject = "Enter your subject here" # remove
     
     
     
@@ -108,6 +109,11 @@ for index, row in contacts_df.iterrows():
     
     # This is where you add your email content
     # {first_name} is there to make it more personalized
+    # You can make the email more personalized by adding more data to the Excel file.
+    # For example, you can add a column with the name "Custom Message".
+    # Then, in the body of the email, you can include a placeholder like {custom_message}.
+    # At line 70 in the script, replace the placeholder with the actual data from the Excel file.
+
     body = f"""Hello {first_name}, """
     
     
