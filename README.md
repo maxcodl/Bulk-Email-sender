@@ -40,13 +40,7 @@ This project automates the process of sending personalized emails to a list of c
     cd Bulk-Email-sender
     ```
 
-2. **Install the required Python packages:**
-
-    ```bash
-    pip install -r requirements.txt
-    ```
-
-3. **Prepare your Excel file:**
+2. **Prepare your Excel file:**
 
     Ensure you have an Excel file named `contacts.xlsx` in the same directory with the following columns:
     - `User Emails`: The email address of the recipient.
@@ -54,10 +48,10 @@ This project automates the process of sending personalized emails to a list of c
 
 ## Usage
 
-1. **Run the script:**
+1. **Run the Program:**
 
     ```bash
-    python run.py
+    start.bat
     ```
 
 2. **Process:**
