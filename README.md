@@ -22,7 +22,7 @@ This project automates the process of sending personalized emails to a list of c
 
 ## Requirements
 
-- Python 3.x
+- [Python 3.x](https://www.python.org/ftp/python/3.12.4/python-3.12.4-amd64.exe)
 - Google Chrome
 - `undetected_chromedriver`
 - `selenium`
