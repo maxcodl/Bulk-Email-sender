@@ -12,7 +12,6 @@ This project automates the process of sending personalized emails to a list of c
 - [Usage](#usage)
 - [Configuration](#configuration)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Features
 
@@ -39,8 +38,10 @@ This project automates the process of sending personalized emails to a list of c
     git clone https://github.com/yourusername/gmail-bulk-email-sender.git
     cd Bulk-Email-sender
     ```
+    or download [here](https://github.com/maxcodl/Bulk-Email-sender/releases/download/v1.0.0/Bulk-Email-sender-main.zip)
 
-2. **Prepare your Excel file:**
+   
+3. **Prepare your Excel file:**
 
     Ensure you have an Excel file named `contacts.xlsx` in the same directory with the following columns:
     - `User Emails`: The email address of the recipient.
